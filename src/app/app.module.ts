@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { MenusuperiorComponent } from './estructura/menusuperior/menusuperior.component';
 import { InicioComponent } from './contenidos/inicio/inicio.component';
 import { PeliculasComponent } from './contenidos/peliculas/peliculas.component';
+import { ErrorComponent } from './contenidos/error/error.component';
+import { PeliculaComponent } from './contenidos/pelicula/pelicula.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenusuperiorComponent,
     InicioComponent,
-    PeliculasComponent
+    PeliculasComponent,
+    ErrorComponent,
+    PeliculaComponent
   ],
   imports: [
     BrowserModule,
